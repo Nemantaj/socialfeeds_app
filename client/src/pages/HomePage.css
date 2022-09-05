@@ -1,0 +1,21 @@
+.homepage_styles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  min-height: 100%;
+}
+
+.story_holders {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-top: 10px;
+  max-width: 550px;
+  display: inline-flex;
+  overflow-x: scroll;
+}
+
+.story_avatar {
+  margin-right: 20px;
+}

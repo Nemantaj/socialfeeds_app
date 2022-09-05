@@ -1,0 +1,21 @@
+.msg_win_head{
+
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.msg_win_head_sub{
+
+    text-align: start;
+
+}
+
+.msg_window_footer{
+
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+
+}

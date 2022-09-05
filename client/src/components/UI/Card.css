@@ -1,0 +1,32 @@
+.card_header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_header_sub {
+  display: inline-flex;
+  align-items: center;
+}
+
+.card_footer_con {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.card_footer {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.img {
+  position: relative;
+}
+
+.dropdown_menu {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: saturate(300%) blur(20px);
+}

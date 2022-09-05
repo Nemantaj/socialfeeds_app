@@ -1,0 +1,19 @@
+.profile_img_form {
+  margin-top: 20px;
+}
+
+.profile_bio_form {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.new_img_preview {
+  margin-top: 20px !important;
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover;
+  border-radius: 20px;
+  
+}

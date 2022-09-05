@@ -1,0 +1,10 @@
+.logout{
+
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+
+}

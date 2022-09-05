@@ -1,0 +1,31 @@
+.upload_modal_body_main {
+  width: 100%;
+  max-width: 550px;
+  margin-top: 10px;
+  overflow: auto;
+  text-align: center;
+}
+
+.upload_modal_footer {
+  display: inline-flex;
+  width: 100%;
+  max-width: 550px;
+}
+
+.input_control {
+  margin: 5px;
+}
+
+.img_preview {
+  margin-top: 15px !important;
+  border-radius: 20px;
+  max-height: 500px;
+}
+
+.btnContainer{
+
+  width: 100%;
+  display: inline-flex;
+  justify-content: right;
+
+}

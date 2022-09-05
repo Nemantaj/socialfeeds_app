@@ -1,0 +1,24 @@
+.signup_card {
+  margin-bottom: 100px;
+}
+
+.card_parent {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.lg_info_text {
+  margin-top: 30px;
+}
+
+.lg_form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.lg_footer {
+  width: 100%;
+  justify-content: center;
+}

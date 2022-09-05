@@ -1,0 +1,80 @@
+.profile_styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_card {
+  margin-top: 10px;
+  max-width: 550px;
+}
+
+.profile_header {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.profile_card_content {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start !important;
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: saturate(300%) blur(20px) !important;
+}
+
+.profile_avatar {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_bio {
+  margin-top: 5px;
+  align-items: flex-start;
+}
+
+.profile_counter {
+  width: 100%;
+  margin-top: 10px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.profile_content_nav {
+  position: sticky;
+  top: 5px;
+  max-width: 550px;
+  width: 100%;
+  z-index: 250;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.profile_gallery {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 5px;
+  align-items: stretch;
+  margin-bottom: 100px;
+}
+
+.profile_gallery img {
+  border-radius: 20px;
+}
+
+.profile_card_images {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.no_post {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}

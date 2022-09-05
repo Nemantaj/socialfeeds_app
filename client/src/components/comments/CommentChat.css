@@ -1,0 +1,19 @@
+.cmt_chat {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  width: max-content;
+}
+
+.cmt_user_info {
+  display: inline-flex;
+}
+
+.cmt_actions {
+  position: relative;
+  top: 1.8px;
+}

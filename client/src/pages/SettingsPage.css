@@ -1,0 +1,76 @@
+.settings_home_styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settings_home_head {
+  margin: 10px 0 5px 0;
+  width: 100%;
+  max-width: 550px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings_home_bar {
+  width: 100%;
+  max-width: 550px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.settings_content {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.settings_profile_img {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 550px;
+  padding-bottom: 20px;
+}
+
+.settings_profile {
+  width: 100%;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+}
+
+.settings_img_form {
+  width: 100%;
+  text-align: start;
+}
+
+.settings_info_form {
+  width: 100%;
+  text-align: center;
+}
+
+.settings_file {
+  display: inline-flex;
+  align-items: center;
+}
+
+.settings_action {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 550px;
+}
+
+.logout_icon {
+  color: aquamarine;
+}
+
+.about_app {
+  width: 100%;
+  text-align: start;
+  max-width: 550px;
+}

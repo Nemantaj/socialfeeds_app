@@ -1,0 +1,44 @@
+.incoming {
+  width: 100%;
+  direction: ltl;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.outgoing {
+  width: 100%;
+  direction: rtl;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.margin_incoming {
+  margin-left: 3px !important;
+}
+
+.margin_outgoing {
+  margin-right: 3px !important;
+}
+
+.read_indicator_red {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #f31260;
+}
+
+.read_indicator_green {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: lightgreen;
+}
+
+.msg_heart {
+  margin-left: 3px;
+  position: relative;
+  top: 1.5px;
+  color: #f31260;
+}

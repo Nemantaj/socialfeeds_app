@@ -1,0 +1,12 @@
+.nav_search {
+  width: 100%;
+  padding: 10px;
+  max-width: 550px;
+}
+
+.msg_search {
+  width: 100%;
+  max-width: 550px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

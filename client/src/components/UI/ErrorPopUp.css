@@ -1,0 +1,21 @@
+.error_alert_head {
+  align-items: center;
+  background-color: #FCC5D8;
+  max-width: fit-content;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.error_alert_icon {
+  position: relative;
+  top: 3px;
+}
+
+.error_content{
+
+    margin-top: 5px;
+    text-align: start;
+    padding: 5px;
+
+}

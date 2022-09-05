@@ -1,0 +1,42 @@
+.msg_home_styles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.msg_holder {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.msg_home_head {
+  margin: 10px 0 5px 0;
+  width: 100%;
+  max-width: 550px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.msg_home_bar {
+  width: 100%;
+  max-width: 550px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.msg_search_result {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
