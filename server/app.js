@@ -21,7 +21,7 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 const MONGODB_URI =
-  "mongodb+srv://cluster0:8349727696Mini@cluster0.eoeoink.mongodb.net/?retryWrites=true&w=majority";
+  "Enter your mongodb database";
 
 const fileStorage = multer.diskStorage({
   destination: (req, file, cb) => {
