@@ -318,7 +318,7 @@ function App() {
       socket.off("chat");
       socket.off("seen");
 
-      socket.off("seen");
+      socket.off("notif");
       socket.off("client-connect");
     };
   }, [storedNotif]);
