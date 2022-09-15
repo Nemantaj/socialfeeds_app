@@ -19,8 +19,6 @@ function CommentModal(props) {
   });
   const [cmtData, setCmtData] = useState([]);
 
-  console.log(postId);
-
   const socket = useContext(SocketContext);
 
   const token = useSelector((state) => state.auth.token);
@@ -70,8 +68,6 @@ function CommentModal(props) {
           return doc._id.toString() === data.cmt._id.toString();
         });
 
-        console.log(cmtIndex);
-
         if (cmtIndex >= 0) {
           newData[cmtIndex] = data.cmt;
           setCmtData(newData);
@@ -84,6 +80,10 @@ function CommentModal(props) {
         setCmtData(cmtIndex);
       }
     });
+
+    return () => {
+        socket.off("comment");
+    };
   }, [socket, cmtData, postId]);
 
   useEffect(() => {
